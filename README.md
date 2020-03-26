@@ -15,4 +15,4 @@ npm start
 npm run build
 ```
 ## main
-![python-code](https://raw.githubusercontent.com/SEDoug/portfolioapp/master/static/Screenshot%20from%202017-10-19%2020-44-01.png)
+![python-code](https://raw.githubusercontent.com/SEDoug/my-app/master/Screenshot from 2020-03-25 22-59-33.png)
