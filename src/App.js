@@ -4,7 +4,7 @@ import Header from './components/layout/Header';
 import Todos from './components/Todos';
 import AddTodo from './components/AddTodo';
 import About from './components/pages/About';
-// import { v4 as uuid } from 'uuid';
+// import uuid from 'uuid';
 import axios from 'axios';
 
 import './App.css';
@@ -49,6 +49,7 @@ class App extends Component {
         completed: false
       })
       .then(res => {
+//        res.data.id = uuid.v4();
         this.setState({ todos: [...this.state.todos, res.data] });
       });
   };
